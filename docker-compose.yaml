@@ -1,3 +1,6 @@
 services:
-  portal:
+  service:
+    container_name: portal-service
     build: .
+    ports:
+      - "80:80"
