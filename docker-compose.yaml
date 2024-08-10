@@ -1,5 +1,3 @@
 services:
-  web:
+  portal:
     build: .
-    ports:
-      - "80:80"
